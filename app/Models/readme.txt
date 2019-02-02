@@ -1,0 +1,1 @@
+All Eloquent models for the app will be stored in this directory.
