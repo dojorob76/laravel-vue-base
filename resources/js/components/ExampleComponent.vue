@@ -1,17 +1,21 @@
 <template>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <div class="card">
-                    <div class="card-header">Example Component</div>
-
-                    <div class="card-body">
-                        I'm an example component.
-                    </div>
-                </div>
+    <section class="hero is-medium is-light is-bold">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Hello World
+                </h1>
+                <p class="subtitle">
+                    My Laravel website with <strong>Bulma</strong>!
+                </p>
+                <p>
+                    (If you see a "thumbs-up" icon here -->>
+                    &nbsp;<span class="icon has-text-success"><i class="fa fa-thumbs-up"></i></span>&nbsp;
+                    <<-- all is well!)
+                </p>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <script>
