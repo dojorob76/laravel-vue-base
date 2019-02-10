@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
@@ -6,9 +6,8 @@
 
     <title>Laravel</title>
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
-    <link href="/css/app.css" rel="stylesheet" type="text/css">
+    <!-- CSS -->
+    <link href="{{mix('/css/app.css')}}" rel="stylesheet" type="text/css">
 
 </head>
 <body>
@@ -16,6 +15,7 @@
     <example-component></example-component>
 </div>
 
-<script src="/js/app.js"></script>
+<!-- CORE SCRIPTS -->
+<script src="{{mix('/js/app.js')}}"></script>
 </body>
 </html>

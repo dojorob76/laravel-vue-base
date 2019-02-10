@@ -1,8 +1,10 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+// N/A
 
-// Variables
-@import 'variables';
+// Variables (Bulma Overrides)
+@import "initial-variables";
+@import "derived-variables";
+@import "generic-variables";
 
 // Bulma
 @import "~bulma";
@@ -13,7 +15,5 @@
 @import "~@fortawesome/fontawesome-free/scss/solid";
 @import "~@fortawesome/fontawesome-free/scss/brands";
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
+// Custom Styles
+@import "app-custom";

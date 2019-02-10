@@ -1777,6 +1777,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -32389,22 +32395,28 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "section" }, [
-      _c("div", { staticClass: "container" }, [
-        _c("h1", { staticClass: "title" }, [
-          _vm._v("\n            Hello World\n        ")
-        ]),
-        _vm._v(" "),
-        _c("p", { staticClass: "subtitle" }, [
-          _vm._v("\n            My first website with "),
-          _c("strong", [_vm._v("Bulma")]),
-          _vm._v("!\n        ")
-        ]),
-        _vm._v(" "),
-        _c("p", [
-          _vm._v('If there is a "thumbs-up" icon here -> '),
-          _c("i", { staticClass: "fa fa-thumbs-up" }),
-          _vm._v(" <-, then all is working well!")
+    return _c("section", { staticClass: "hero is-medium is-light is-bold" }, [
+      _c("div", { staticClass: "hero-body" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("h1", { staticClass: "title" }, [
+            _vm._v("\n                Hello World\n            ")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "subtitle" }, [
+            _vm._v("\n                My Laravel website with "),
+            _c("strong", [_vm._v("Bulma")]),
+            _vm._v("!\n            ")
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              '\n                (If you see a "thumbs-up" icon here -->>\n                 '
+            ),
+            _c("span", { staticClass: "icon has-text-success" }, [
+              _c("i", { staticClass: "fa fa-thumbs-up" })
+            ]),
+            _vm._v(" \n                <<-- all is well!)\n            ")
+          ])
         ])
       ])
     ])
